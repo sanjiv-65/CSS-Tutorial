@@ -1,38 +1,123 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <style>
-            .class{
-                border:2px solid black;
-                height:100vw;
-                width:60vw;
-                border-radius:15px;
-                box-shadow: 10px,10px,10px,10px;
-                color: blue;
-                
-            }
-             div img{
-               
-                height:50vw;
-                width:40vw;
-                padding:40px;
-                margin:20px;
-                
-                border-top-right-radius: 15% ;
-                border-top-left-radius: 15%;
-                border-bottom-left-radius: 15%;
-                border-bottom-right-radius: 15%;
-                
-            }
-        </style>
-    </head>
-    <body>
-        <div class="body">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    body{
+        background-color: rgb(242, 241, 244);
+    }
+    .body{
+        margin: 20px;
+        padding: 30px;
+               width:50vw;
+       height: 60vh;
+       border: 2px solid rgb(7, 7, 28) ;
+       background-color: rgb(165, 175, 249);
+       box-shadow: 2px 2px 10px 1px rgb(16, 15, 15);
+       border-radius: 30px;}
+
+       .body:hover{
+        background-color: rgb(247, 191, 236);
+       }
+    
+    .email:hover{
+        background-color: rgb(22, 22, 21);
+        color: rgb(249, 252, 253);
+
+
+    }
+    .email1:hover{
+        background-color: rgb(22, 22, 21);
+        color: rgb(249, 252, 253);
+
+    }
+    .rem span{
+        text-align: left;
+       
+        
+    }
+   button{
+    border: 2px solid rgb(68, 59, 193);
+    background-color: rgb(247, 246, 245);
+    cursor:grab;
+
+   }
+   button:hover{
+    background-color: rgb(11, 11, 10);
+    color:rgb(242, 241, 247);
+   }
+   footer{
+    font-style: italic;
+    color: rgb(19, 18, 18);
+    font-weight:0.2;
+    text-align: left;
+    
+   }
+
+   .last{
+    border:2px solid black;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    bottom:0px;
+    left: 500px;
+    color: white;
+    background-color: rgb(151, 146, 146);
+
+   }
+   
+
+    
+</style>
+
+<body>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+    <div class="body">
+
+        <div class="link">
+            <a href="https:facebook.com">Login</a>
+            <a href="https:facebook.com">Register</a>
+        </div>
+        <header class="head">
+            <h2>Login Form</h2>
+            <p>Welcome to this webpage.This is create by Deepak Sah for learning purpose only.</p>
+        </header>
+
+        <div class="email">
+            <input type="text" id="email" placeholder="dsah5898@gmail.com" size="30">
+            <label for="email">Email</label>
+        </div>
+        <div class="email1">
+            <input type="text" id="password" placeholder="XXXXXXXXXX" size="30">
+            <label for="password">Password</label></div>
+        
+        <span class="rem">
+            <input type="checkbox" id="rem">
+            <label for="checkbox">Remember me</label> 
+          
+            <a href="https:facebook.com">Forget Password</a>
+       
+        </span>
+        <br>
+        <button>
+            Login
+
+        </button>
 
        
-        <div class="class">
-            <div><img src="sanjiv.jpg" alt=""></div>
-        </div>
+
     </div>
-    </body>
+    <footer >
+        <p></p>&copy 2025 Deepak Sah. All rights reserved.
+        </p>
+    </footer>
+    <div class="last">
+        <p>Thank you for logging into us. </p>
+    </div>
+</body>
+
 </html>
