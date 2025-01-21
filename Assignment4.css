@@ -1,0 +1,45 @@
+
+:root{
+    --color1:orange;
+    --color2:maroon;
+    --color3:green;
+    --color4:blue;
+
+    /* --padding:2px; */
+}
+.body{
+    border:2px solid black;
+    border-radius: 15px;
+    background-color: grey;
+    box-shadow: 2px,4px,5px,10px;
+}
+ul li{
+    border:2px solid rgb(11, 11, 11);
+    background-color: red;
+    list-style: none;
+    padding:30px;
+    
+}
+ul{
+    display: flex;
+
+}
+.box1{
+    background-color:var(--color1)
+   
+}
+.box2{
+    background-color:var(--color2)
+}
+.box3{
+    background-color:var(--color3)
+}
+.box4{
+    background-color:var(--color4)
+}
+ .box{
+    /* padding: ; */
+    margin: 2px;
+    border-radius: 30px;
+    
+}
