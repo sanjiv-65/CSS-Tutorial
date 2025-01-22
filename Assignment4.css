@@ -1,23 +1,30 @@
 
 :root{
-    --color1:orange;
-    --color2:maroon;
+    /* --color1:orange; */
+    /* --color2:maroon; */
     --color3:green;
-    --color4:blue;
+    /* --color4:blue; */
 
     /* --padding:2px; */
 }
+.body1{
+    height: 100vw;
+    width:100vw;
+    background-color: green;
+}
 .body{
-    border:2px solid black;
+    border:2px solid rgb(20, 13, 13);
     border-radius: 15px;
-    background-color: grey;
-    box-shadow: 2px,4px,5px,10px;
+    background-color: rgb(83, 217, 110);
+    box-shadow: 2px 2px 2px 2px rgb(17, 20, 15);
+
+    
 }
 ul li{
-    border:2px solid rgb(11, 11, 11);
+    border: 1pxpx solid rgb(11, 11, 11);
     background-color: red;
     list-style: none;
-    padding:30px;
+    padding:2px;
     
 }
 ul{
@@ -42,4 +49,14 @@ ul{
     margin: 2px;
     border-radius: 30px;
     
+}
+
+div img{
+    border:2px solid black;
+    height: 34vw;
+    width: 36vw;
+    padding:23px;
+    margin:20px;
+    border-radius: 10px;
+
 }
